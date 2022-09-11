@@ -52,6 +52,12 @@ class Bola:
         self.y = -3
 
         self.canvas_height = self.canvas.winfo_height()
+        self.canvas_width = self.canvas.winfo_width()
+
+    def draw(self):
+        self.canvas.move(self.id, self.x, self.y)
+
+        pos = self.canvas.coords(self.id)
 
         if pos[1] <= 0:
             self.y = 3
