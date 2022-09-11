@@ -7,7 +7,6 @@ from itertools import count
 from logging import root
 from multiprocessing.util import log_to_stderr
 from operator import length_hint, truediv
-from ossaudiodev import SNDCTL_COPR_RESET
 from textwrap import fill
 from tkinter import *
 import random
