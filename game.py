@@ -42,7 +42,7 @@ class Bola:
     def __init__(self, canvas, Barra, color):
         self.canvas = canvas
         self.Barra = Barra
-        Self.id = canvas.create_oval(0, 0, 15, 14, fill=color)
+        self.id = canvas.create_oval(0, 0, 15, 14, fill=color)
         self.canvas.move(self.id, 245, 200)
 
         starts_x = [-3, -2, -1, 1, 2, 3]
