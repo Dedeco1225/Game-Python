@@ -92,8 +92,8 @@ class Barra:
 
         self.canvas_width = self.canvas.winfo_width()
 
-        self.canvas.bind_all("<Keypress-Left>", self.move_left)
-        self.canvas.bind_all("<Keypress-Left>", self.move_right)
+        self.canvas.bind_all("<KeyPress-Left>", self.move_left)
+        self.canvas.bind_all("<KeyPress-Right>", self.move_right)
 
     def draw(self):
         self.canvas.move(self.id, self.x, 0)
