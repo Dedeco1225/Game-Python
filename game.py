@@ -120,7 +120,7 @@ class Barra:
         if self.pos[2] <= self.canvas_width:
             self.x = 3
 
-    def start_game(event):
+def start_game(event):
     global lost, count
     lost = False
     count = 0
