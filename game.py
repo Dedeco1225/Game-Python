@@ -57,7 +57,7 @@ class Bola:
         if pos[1] <= 0:
             self.y = 3
         
-        if pos[3] >= self.canvas_height
+        if pos[3] >= self.canvas_height:
             self.y = -3
 
         if pos[0] <= 0:
