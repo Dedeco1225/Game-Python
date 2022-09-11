@@ -63,7 +63,7 @@ class Bola:
         if pos[0] <= 0:
             self.x = 3
 
-        if pos[2] >= self.canvas_width
+        if pos[2] >= self.canvas_width:
             self.x = -3
 
         self.Barra_pos = self.canvas.coords(self.Barra.id)
