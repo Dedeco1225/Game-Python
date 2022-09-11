@@ -43,7 +43,7 @@ class Bola:
         self.canvas = canvas
         self.Barra = Barra
         Self.id = canvas.create_oval(0, 0, 15, 14, fill=color)
-        self.canvas.move(self.id, 245, 201)
+        self.canvas.move(self.id, 245, 200)
 
         starts_x = [-3, -2, -1, 1, 2, 3]
         random.shuffle(starts_x)
@@ -86,7 +86,7 @@ class Barra:
     def __init__(self, canvas, color):
         self.canvas = canvas
         self.id = canvas.create_rectangle(0, 0, length, 10, fill=color)
-        self.canvas.move(self, id, 200, 400)
+        self.canvas.move(self.id, 200, 400)
 
         self.x = 0
 
